@@ -1,0 +1,11 @@
+{
+	"author": "Neocooler",
+    "name": "New Tab Ext Edge",
+    "version": "0.0.1.2",
+    "manifest_version": 2,
+    "description": "Une extansion qui modifie votre page d'acceuil et nouvel onglet ;-)",
+	"incognito": "split",
+	"chrome_url_overrides": {
+		"newtab": "homepage/index.html"
+	  }
+}
